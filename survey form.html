@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+  
+  <style>
+    h1 {text-align: center; color: orange;}
+    p {color: white;}
+     body {font-family: Arial;  align-items: center; margin: 0px 450px; background-color: rgb(21, 2, 56);}
+     .container{color: white;}
+     .button {background-color: orange; color:white; text-align: center; padding: 5px  206px; }  
+     input { padding: 3px 135px;}
+     select {padding: 2.5px 180px; text-align: left;}
+     input[type="text"]::placeholder{text-align: left;}
+    </style>
+</head>
+<body>
+<form>
+   <h1>CodeQuotient Survey Form</h1>
+   <p style="text-align: center;"> Thank you for taking the time to help us improve the platform</p>
+    <label class="container">Name</label><br>
+    <input type="text" placeholder="Enter Your Name" required/> <br> <br>
+    <label class="container"> Email </label><br>
+    <input type="text" placeholder="Enter Your Email" required/> <br> <br>
+    <label class="container"> Age(optional) </label><br>
+    <input type="text" placeholder="Age" /> <br> <br>
+    <label class="container">Which option best describe your current role?</label><br>
+    <select>
+        <option value="Student">Student</option>
+        <option value="Full Time">Full Time</option>
+        <option value="Half Time">Half Time</option>
+        <option value="Part Time">Part Time</option>
+    </select><br><br>
+    <p>Would you recommed CodeQuotient to a friend?</p>
+        <input type="radio" name="radio" /> 
+        <label class="container"> Definitely </label><br> 
+        <input type="radio" name="radio" />  
+        <label class="container"> Maybe </label><br>
+        <input type="radio" name="radio" /> 
+        <label class="container">Not sure </label><br><br>
+    <p>In which courses you are interested</p>
+    <input type="checkbox" name="Data Structure">
+    <label class="container"> Data Structure</label><br>
+    <input type="checkbox" name="Cloud Computing">
+    <label class="container">Cloud Computing </label><br>
+    <input type="checkbox" name="Machine Learning">
+    <label class="container"> Machine Learning </label><br><br>
+    <p>Any comments or suggestions?</p>
+<textarea cols="62" rows="5" value="address" placeholder="Enter your comment here...">
+</textarea><br><br>
+<button class="button">Submit</button>
+</body>
